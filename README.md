@@ -9,6 +9,11 @@ This is a simple Jquery plugin allowing anyone to easily validate a form within 
 
 
 ## Installation
+
+#### npm
+ Just execute `npm install validizerjs` in your terminal
+
+#### Downloading
 - Download, as you wish, the minified version or the production version in the repository
 
 ## Usage
