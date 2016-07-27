@@ -1,4 +1,3 @@
-
 $.validators = {
     rules:{
         required: function(value, args, context){
@@ -52,13 +51,12 @@ $.validators = {
             return !isNaN(value);
         },
     },
-    messages: {
-
-    },
+    messages: { },
     test: function(rule, value, args, context){
         return $.validators.rules[rule](value, args, context);
     }
 };
+
 $.fn.extend({
     validate: function(callback){
         var validators = $(this).attr('data-validate'),

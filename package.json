@@ -1,0 +1,37 @@
+{
+  "name": "validizerjs",
+  "version": "1.0.0",
+  "description": "A simple HTML helper for javascript validations",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify": "0.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicklayb/validizerjs.git"
+  },
+  "keywords": [
+    "validation",
+    "javascript",
+    "html",
+    "helper"
+  ],
+  "author": "Nicolas Boisvert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicklayb/validizerjs/issues"
+  },
+  "homepage": "https://github.com/nicklayb/validizerjs#readme"
+}
